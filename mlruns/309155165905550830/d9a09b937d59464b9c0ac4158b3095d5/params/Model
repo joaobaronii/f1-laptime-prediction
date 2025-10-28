@@ -1,0 +1,5 @@
+GridSearchCV(cv=3, estimator=RandomForestRegressor(n_jobs=2, random_state=42),
+             param_grid={'max_depth': [None, 10, 20],
+                         'min_samples_leaf': [2, 5, 10, 20],
+                         'n_estimators': [100, 200, 500]},
+             scoring='r2', verbose=2)

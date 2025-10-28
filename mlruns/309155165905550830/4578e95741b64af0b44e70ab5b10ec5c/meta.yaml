@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/309155165905550830/4578e95741b64af0b44e70ab5b10ec5c/artifacts
+deleted_time: 1761573413657
+end_time: 1761572971192
+entry_point_name: ''
+experiment_id: '309155165905550830'
+lifecycle_stage: deleted
+run_id: 4578e95741b64af0b44e70ab5b10ec5c
+run_name: gb-monza
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761572824134
+status: 3
+tags: []
+user_id: joao

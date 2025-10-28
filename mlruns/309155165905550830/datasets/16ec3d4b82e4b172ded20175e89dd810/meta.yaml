@@ -1,0 +1,13 @@
+digest: b5a5cdfe
+name: dataset
+profile: '{"num_rows": 456, "num_elements": 4104}'
+schema: '{"mlflow_colspec": [{"type": "string", "name": "DriverNumber", "required":
+  true}, {"type": "string", "name": "Team", "required": true}, {"type": "string",
+  "name": "Compound", "required": true}, {"type": "double", "name": "TyreLife", "required":
+  true}, {"type": "double", "name": "SpeedI1", "required": true}, {"type": "double",
+  "name": "SpeedI2", "required": true}, {"type": "double", "name": "SpeedFL", "required":
+  true}, {"type": "double", "name": "SpeedST", "required": true}, {"type": "double",
+  "name": "MeanSpeed", "required": true}]}'
+source: '{"tags": {"mlflow.user": "joao", "mlflow.source.name": "/home/joao/.local/lib/python3.13/site-packages/ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

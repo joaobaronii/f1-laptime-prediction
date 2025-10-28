@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/309155165905550830/80c5924e8a51447abfa653eea82edf53/artifacts
+deleted_time: 1761567625808
+end_time: 1761567613665
+entry_point_name: ''
+experiment_id: '309155165905550830'
+lifecycle_stage: deleted
+run_id: 80c5924e8a51447abfa653eea82edf53
+run_name: burly-shad-657
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761567613379
+status: 4
+tags: []
+user_id: joao

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/309155165905550830/ce2d8066a64a4c6ba4e7d210ff2b6c94/artifacts
+deleted_time: 1761522484732
+end_time: 1761519224021
+entry_point_name: ''
+experiment_id: '309155165905550830'
+lifecycle_stage: deleted
+run_id: ce2d8066a64a4c6ba4e7d210ff2b6c94
+run_name: classy-shrike-40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761519223851
+status: 4
+tags: []
+user_id: joao

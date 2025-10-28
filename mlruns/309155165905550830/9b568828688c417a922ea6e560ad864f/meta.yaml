@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/309155165905550830/9b568828688c417a922ea6e560ad864f/artifacts
+deleted_time: 1761568299174
+end_time: 1761568180706
+entry_point_name: ''
+experiment_id: '309155165905550830'
+lifecycle_stage: deleted
+run_id: 9b568828688c417a922ea6e560ad864f
+run_name: treasured-yak-14
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761568180441
+status: 4
+tags: []
+user_id: joao

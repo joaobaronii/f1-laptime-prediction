@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/309155165905550830/eee029741118453c862c3d9a46b05c48/artifacts
+end_time: 1761574360050
+entry_point_name: ''
+experiment_id: '309155165905550830'
+lifecycle_stage: active
+run_id: eee029741118453c862c3d9a46b05c48
+run_name: ridge-monza
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761574354311
+status: 3
+tags: []
+user_id: joao

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/309155165905550830/10fd24378d9e43f7862c87e58ab5aa94/artifacts
+deleted_time: 1761573947241
+end_time: 1761573691386
+entry_point_name: ''
+experiment_id: '309155165905550830'
+lifecycle_stage: deleted
+run_id: 10fd24378d9e43f7862c87e58ab5aa94
+run_name: nebulous-doe-389
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761573549949
+status: 3
+tags: []
+user_id: joao
