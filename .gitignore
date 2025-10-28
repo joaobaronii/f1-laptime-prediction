@@ -1,0 +1,6 @@
+# MLflow
+/mlruns
+/mlartifacts
+
+# FastF1
+/data
