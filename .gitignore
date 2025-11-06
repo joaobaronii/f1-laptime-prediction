@@ -1,3 +1,4 @@
+.env
 # MLflow
 /mlruns
 /mlartifacts

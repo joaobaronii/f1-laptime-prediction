@@ -3,8 +3,10 @@ import fastf1
 import matplotlib.pyplot as plt
 import mlflow
 import pandas as pd
+import os
 from feature_engine import encoding
 from sklearn import ensemble, linear_model, metrics, model_selection, pipeline
+from dotenv import load_dotenv
 
 fastf1.Cache.enable_cache("data/raw")
 
@@ -105,8 +107,13 @@ model_pipeline = pipeline.Pipeline(steps=[("Onehot", onehot), ("Model", model)])
 
 # %%
 
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
-mlflow.set_experiment(experiment_id="309155165905550830")
+load_dotenv()
+
+tracking_uri = os.getenv("MLFLOW_TRACKING_URI")
+experiment_id = os.getenv("MLFLOW_EXPERIMENT_NAME")
+
+mlflow.set_tracking_uri(tracking_uri)
+mlflow.set_experiment(experiment_id=experiment_id)
 
 # %%
 with mlflow.start_run():
