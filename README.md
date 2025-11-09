@@ -2,7 +2,6 @@
 
 Aplicação de **Machine Learning** que prevê o **tempo de volta de pilotos da Fórmula 1** com base em dados de telemetria e sessões oficiais, utilizando o pacote [FastF1](https://theoehrly.github.io/Fast-F1/) e rastreamento de experimentos com [MLflow](https://mlflow.org/).
 
----
 
 ## 📖 Visão Geral
 
@@ -10,8 +9,8 @@ O projeto é dividido em duas partes principais:
 
 1. **Treinamento do Modelo (`train.py`)**
    - Coleta e pré-processamento de dados reais de sessões de F1.
-   - Treinamento e avaliação de modelos de regressão (ex: Ridge, Random Forest, Gradient Boosting).
-   - Registro automático de métricas e artefatos no **MLflow**.
+   - Treinamento e avaliação de modelos de regressão (Regressão Linear, Ridge, Random Forest, Gradient Boosting).
+   - Registro automático de métricas no **MLflow**.
 
 2. **Aplicativo de Predição (`app.py`)**
    - Interface construída em **Streamlit**.
@@ -19,7 +18,6 @@ O projeto é dividido em duas partes principais:
    - Carrega automaticamente o modelo correspondente (via MLflow).
    - Exibe as predições de tempo de volta com base nas variáveis de entrada.
 
----
 
 ## 🧠 Funcionalidades Principais
 
@@ -35,14 +33,13 @@ O projeto é dividido em duas partes principais:
   - R², MAE, MSE, e erro máximo
 - Registro completo no MLflow (métricas, parâmetros, artefatos, gráficos)
 
----
 
 ## 🖥️ Aplicação Streamlit
 
 A interface gráfica permite ao usuário:
 
-- Selecionar o **Grande Prêmio (GP)** (`silverstone`, `monza`, `arabia`, `canada`, `monaco`)
+- Selecionar o **Grande Prêmio** (`silverstone`, `monza`, `arabia`, `canada`, `monaco`)
 - Escolher o **piloto** (lista completa de 2025 usando abreviações oficiais)
+- Escolher a **equipe**
 - Inserir parâmetros adicionais (ex: tipo de pneu, vida útil, velocidades, etc.)
-- Visualizar a **predição de tempo de volta**
-- Exibir **métricas e gráficos** de desempenho do modelo
+- Visualizar a **predição de tempo de volta** e delta em relação ao **tempo da pole position**
