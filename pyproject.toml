@@ -1,0 +1,14 @@
+[project]
+name = "modelotempovolta"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastf1>=3.0.2",
+    "feature-engine>=1.9.4",
+    "matplotlib>=3.11.1",
+    "numpy<2.0.0",
+    "pandas<3.0.0",
+    "scikit-learn>=1.9.0",
+]
