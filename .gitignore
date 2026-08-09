@@ -1,2 +1,5 @@
+/.venv
+/models
+
 # FastF1
 /data
